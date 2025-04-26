@@ -6,7 +6,7 @@ After exploring OpenMP in my Concepts of Programming Languages course, I became 
 
 GalaNet is my way of revisiting C++ and bridging theory with practice—perhaps it'll be your stepping stone to something exciting too.
 
-## 🚀 Key Features
+## Key Features
 - **Dense Layers:** Customizable with multiple activation functions (ReLU, Tanh, Softmax).
 - **Flexible Loss Functions:** Mean Squared Error (MSE), Mean Absolute Error (MAE), Cross-Entropy.
 - **Robust Initialization:** Implements He, Xavier/Glorot, and Random Uniform initializations.
@@ -15,19 +15,19 @@ GalaNet is my way of revisiting C++ and bridging theory with practice—perhaps 
 - **Training Enhancements:** Includes batch training and early stopping to prevent overfitting.
 - **Dataset Support:** Integrated MNIST dataset loader for easy experimentation.
 
-## 📚 Architecture & Usage
+## Architecture & Usage
 GalaNet maintains a modular architecture, making it straightforward to experiment with and expand. Whether you're exploring neural networks academically or practically, GalaNet provides an intuitive playground to deepen your understanding.
 
 Check out `example_mnist.cpp` for a practical example of how GalaNet can be used.
 
-## 🛠️ Dependencies
+## Dependencies
 GalaNet was intentionally developed with minimal dependencies, relying solely on:
 - **C++17** (Standard Template Library - STL)
 - **OpenMP** (for parallel processing)
 
 No external libraries were used, making GalaNet lightweight and ideal for educational purposes and experiments.
 
-## 🏗️ Build Instructions
+## Build Instructions
 Simply clone the repository and build using your favorite C++17 compatible compiler with OpenMP support enabled:
 
 ```bash
