@@ -1,10 +1,9 @@
-# GalaNet - A Personal Journey into Neural Networks with C++
+# GalaNet - Custom Neural Network in C++ implementation
 
-GalaNet isn't just another neural network library; it's a reflection of curiosity and an exercise in applying theoretical knowledge practically. Born out of nostalgia for C++ and inspired by the concepts I explored during my Computational Intelligence and Machine Learning courses, GalaNet is a lightweight neural network library dedicated to efficiently solving the MNIST digit classification problem.
+GalaNet is my my implementation of a neural network in c++. It is built upon a custom Linear Algebra Operations library (available in `matrix.cpp`), created by me from scratch. 
 
-After exploring OpenMP in my Concepts of Programming Languages course, I became intrigued by parallel computing. GalaNet allowed me to experiment firsthand with OpenMP, enhancing performance through parallelized matrix operations. Additionally, I challenged myself by building a custom linear algebra operations library from scratch in `matrix.cpp`, completely self-contained and optimized for GalaNet.
+Thea idea of this project came after I finished the Compuatitonal Intelligence and the Concepts of Programming Languages courses. I wanted to take a stab at manually implementing a neural network, using parallel operations from the `OpenMP` library.
 
-GalaNet is my way of revisiting C++ and bridging theory with practice—perhaps it'll be your stepping stone to something exciting too.
 
 ## Key Features
 - **Dense Layers:** Customizable with multiple activation functions (ReLU, Tanh, Softmax).
